@@ -1,8 +1,10 @@
 # Block-Fintech
-echo "# Block-Fintech" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/FN244/Block-Fintech.git
-git push -u origin main
+tokenized-crowdfunding/
+├── contracts/           # Smart contracts (Solidity)
+│   ├── Crowdfunding.sol
+│   └── ProjectToken.sol
+├── frontend/            # Web frontend (React)
+│   ├── src/
+│   │   └── ...
+│   └── package.json
+└── README.md
